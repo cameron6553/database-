@@ -79,7 +79,7 @@ def execute_read_query(connection, query):
 #************ Program Starting Point ********************
         
 # Connect to Existing or Create the Sqlite3 Database File
-connection = create_connection("toDatabase")
+connection = create_connection("../toDatabase")
 
 # Execute query to create table
 execute_query(connection, create_staff_member_table_query) 
